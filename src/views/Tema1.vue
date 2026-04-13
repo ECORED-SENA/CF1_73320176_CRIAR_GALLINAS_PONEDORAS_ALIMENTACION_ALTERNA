@@ -937,6 +937,552 @@
                     h4 Cuadro comparativo general
                     P Las cinco libertades tienen un enfoque ético y cualitativo para evitar el sufrimiento, mientras los principios del bienestar Animal son técnicos, cuantitativos y buscan un bienestar integral y proactivo.
     //- Fin Slideshow
+    .row.justify-content-center.mb-4
+      .col-lg-11        
+        .d-flex.align-items-center.bg-color-6.p-4.rounded-4          
+          .flex-shrink-0.pe-4
+            img(src='@/assets/curso/tema1/lectura-icon.svg', style="width: 80px")          
+          .flex-grow-1
+            h4.mb-2 Diferencia entre los principios del bienestar animal y las cinco libertades en aves de postura
+            p.mb-0 Para profundizar en cada una de las diferencias existentes entre las cinco libertades y los principios del bienestar animal, lo invitamos a realizar la siguiente lectura complementaria:          
+          .ps-4
+            a.btn.btn-danger.d-flex.align-items-center.p-3(href="link_al_archivo" target="_blank")
+              span.fw-bold.me-2 Descargar
+              i.fas.fa-file-download
+    //- Inicio Tema1.4
+    .row.mt-5
+        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.4 Etapas de desarrollo de las aves
+    p(data-aos="fade-left") El desarrollo de las aves de postura se organiza en una estructura genética piramidal que incluye abuelas, reproductoras y líneas comerciales, asegurando eficiencia, calidad y mejoramiento continuo productivo.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Abuelas (<i>Grand Parent</i> – GP)
+    //- Título con imagen
+    p(data-aos="fade-left") Las abuelas son aves de alto valor genético utilizadas para producir las reproductoras. Representan el nivel superior de la pirámide genética. Sus características y objetivo son:
+    .row.bg-color-15
+      .col-12
+        .p-5
+          //- Inicio Tarjetas
+          .row(data-aos="fade-right").justify-content-center
+            .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/slide04_1.png').w-100
+                .p-4
+                  h4.card-title.text-center.mb-4 Características          
+                  ul.lista-ul.mb-0
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Selección genética rigurosa.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Control sanitario estricto.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Bajo volumen poblacional.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Alto valor económico.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Programas de mejoramiento continuo.
+            .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/slide04_2.png').w-100                
+                .p-4
+                  h4.card-title.text-center.mb-1 Objetivo
+                  h5.card-title.text-center.mb-4 Transmitir características como:
+                  ul.lista-ul.mb-0
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Alta producción de huevo.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Resistencia a enfermedades.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Buena conversión alimenticia.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Calidad de cáscara.
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Persistencia de postura.
+            //- Fin Tarjetas
+    p(data-aos="fade-left") Estas aves generalmente son manejadas por empresas genéticas internacionales.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Reproductoras (<i>Parent Stock</i> – PS)
+    //- Título con imagen
+    p(data-aos="fade-left") Las reproductoras provienen de las abuelas y su función es producir los huevos fértiles que darán origen a las pollitas comerciales.
+    //- Inicio contenedor vertical
+    .container.tarjeta.p-4.p-md-5
+          TabsA.color-acento-botones
+            .tarjeta.p-5.bg-color-19(titulo="Características")              
+              .row
+                .col-9
+                  h4 Características
+                  ul.lista-ul.mb-0
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Manejo mixto (hembras + machos). 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Producción de huevo fértil. 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Control estricto de fertilidad. 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Programas de vacunación especializados.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_1.svg')
+            .tarjeta.p-5.bg-color-19(titulo="Objetivo")              
+              .row
+                .col-9
+                  h4 Objetivo
+                  ul.lista-ul.mb-0
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Generar pollitas con alto potencial productivo para granjas comerciales.                    
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_2.svg')
+            .tarjeta.p-5.bg-color-19(titulo="Indicadores técnicos")              
+              .row
+                .col-9
+                  h4 Indicadores técnicos
+                  ul.lista-ul.mb-0
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Porcentaje de fertilidad. 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Incubabilidad. 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Uniformidad corporal. 
+                    li.d-flex
+                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      p.mb-0 Peso estándar según edad.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_3.svg')          
+    //- Fin contenedor vertical
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Líneas comerciales o gallinas ponedoras
+    //- Título con imagen
+    p(data-aos="fade-left") Son las aves destinadas exclusivamente a la producción de huevo para consumo. Provienen de huevos incubados de reproductoras. Las etapas productivas son:
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide05_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Levante (0 – 16 semanas)                    
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Desarrollo corporal.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Formación ósea.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Preparación reproductiva.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Meta: lograr peso y uniformidad adecuados.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide05_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Pre-postura (16–18 semanas)
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Desarrollo del aparato reproductivo.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Inicio de estímulo lumínico.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Incremento gradual de calcio en dieta.                     
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide05_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Postura (18–80 semanas aprox.)
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Pico de producción (25–30 semanas).
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Persistencia productiva.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Control de calidad de huevo.
+    //- Fin Slideshow
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Estructura piramidal genética
+    //- Título con imagen
+    p(data-aos="fade-left") La estructura piramidal genética organiza la producción de huevo desde abuelas hasta aves comerciales, permitiendo optimizar genética, manejo, alimentación, sanidad y productividad en los sistemas avícolas. A continuación, se detallará por niveles:
+    //- Inicio Tarjetas
+    .row(data-aos="fade-right").justify-content-center
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_1.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Abuelas          
+            p.text-center Mejoramiento genético. Producen reproductoras.
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_2.png').w-100                
+          .p-4
+            h4.card-title.text-center.mb-4 Reproductoras
+            p.text-center Producción de huevo fértil, producen pollitas comerciales.
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta04_3.png').w-100                
+          .p-4
+            h4.card-title.text-center.mb-4 Comerciales
+            p.text-center Producción de huevo de consumo, mercado.
+      //- Fin Tarjetas
+    .row.mb-5      
+      .col-lg-8.mb-4.mb-lg-0.p-4(data-aos="fade-right")
+        .row
+          p En la medida que se desciende en la pirámide:
+        .row.bg-color-13.p-4.mb-3
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 Aumenta el número de aves.
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 sminuye el valor genético individual.
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 Aumenta el volumen de producción.
+        .row
+          p Comprender estas etapas permite mejorar la selección genética, alimentación, sanidad y manejo, garantizando productividad y adaptación, incluso en sistemas semicriollos o de traspatio.      
+      .col-lg-4(data-aos="fade-left")
+        figure
+          img(src="@/assets/curso/tema1/img13.png", style="width: 450px").m-auto
+    Separador
+    //- Inicio Tema1.5
+    .row.mt-5
+        #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.5 Razas y líneas de aves ponedoras
+    p(data-aos="fade-left") Estas suelen usarse en traspatio, producciones pequeñas o proyectos sociales; tienen características distintas, menos datos productivos sistemáticos, pero ventajas específicas.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Líneas comerciales de gallinas ponedoras
+    //- Título con imagen
+    .row.justify-content-center.align-items-stretch.mb-3.g-0.bg-color-11
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img14.png', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 Las líneas comerciales de gallinas ponedoras agrupan diferentes genéticas especializadas que varían en productividad, adaptación, eficiencia alimenticia y resistencia, permitiendo elegir la más adecuada según condiciones productivas.
+    p.mb-5(data-aos="fade-left") En este punto se conocerán la raza comercial, características generales, parámetros productivos estimados, ventajas y desventajas.
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide06_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  <i>Hy-Line (W-36, W-80, Brown)</i>
+                    p La línea  <i>Hy-Line (W-36, W-80 y Brown)</i> está compuesta por aves ligeras o medianas con alta adaptabilidad al trópico, capaces de producir entre 320 y 340 huevos al año, con buen peso y excelente conversión alimenticia. Se destacan por su alta productividad, persistencia en postura y calidad interna del huevo, aunque las líneas blancas pueden ser más sensibles al estrés calórico.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide06_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  <i>Lohmann (Brown, LSL)</i>
+                    p La línea  <i>Lohmann (Brown, LSL)</i> se caracteriza por ser aves rústicas, resistentes y de buen comportamiento, con una producción anual de entre 310 y 330 huevos, los cuales presentan buen tamaño y excelente calidad de cáscara. Estas aves destacan por su gran adaptabilidad, alta viabilidad superior al 90% y buen desempeño tanto en sistemas intensivos como semi-intensivos. No obstante, requieren un manejo nutricional estricto para poder expresar todo su potencial productivo.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide06_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  <i>Isa (Brown, White)</i>
+                    p La línea  <i>Isa (Brown, White)</i> se caracteriza por aves activas, de buen temperamento y fáciles de manejar, con una producción anual de entre 315 y 330 huevos, con un peso promedio de 62 a 64 g y buena persistencia en la postura. Destacan por su alta productividad, buena aceptación en América Latina y la uniformidad de sus huevos. Sin embargo, pueden ser más susceptibles a enfermedades si no se mantiene una adecuada bioseguridad.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide06_4.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  <i>Hisex (Brown, White)</i>
+                    p La línea  <i>Hisex (Brown, White)</i> se caracteriza por aves livianas con alta eficiencia alimenticia, capaces de producir entre 310 y 325 huevos al año, con buena conversión y huevos de buen tamaño. Se destacan por su excelente conversión alimenticia, buena calidad de cáscara y buen desempeño en climas cálidos. Sin embargo, pueden presentar menor persistencia en la postura en comparación con otras líneas si no se les brinda un manejo adecuado.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide06_5.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  <i>Dekalb (White, Brown)</i>
+                    p La línea  <i>Dekalb (White, Brown)</i> se caracteriza por aves resistentes y con buena adaptabilidad, capaces de producir entre 300 y 320 huevos al año, con huevos de buen tamaño y consistencia. Se destacan por ser rústicas, presentar buen desempeño en ambientes tropicales y producir huevos con cáscara fuerte. Sin embargo, su producción puede ser ligeramente menor en comparación con líneas como  <i>Hy-Line o Lohmann</i> cuando se encuentran en condiciones óptimas.
+    //- Fin Slideshow
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Razas criollas de gallinas ponedoras
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") Las razas criollas incluyen aves rústicas, adaptadas a sistemas extensivos, con diversidad fenotípica, producción moderada y gran valor cultural, destacándose por su resistencia y adaptación local. A continuación, se estudiarán cada una de estas:
+    //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  Criolla común
+                    p La criolla común es un ave de plumaje variado y tamaño mediano, adaptada a sistemas extensivos, que produce entre 130 y 160 huevos al año. Destaca por su rusticidad, resistencia a enfermedades y valor cultural, aunque presenta menor productividad y huevos más pequeños frente a híbridos comerciales.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Kika
+                    p La gallina Kika es un ave pequeña y resistente, común en zonas andinas, que produce entre 100 y 140 huevos al año. Requiere poco alimento, pero tiene bajo rendimiento y huevos pequeños.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4  Criolla de huevos azules / verdes
+                    p La criolla de huevos azules o verdes produce entre 120 y 150 huevos al año y se caracteriza por su cáscara de color distintivo y rusticidad; sin embargo, tiene baja productividad y poca uniformidad.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_4.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Piroca (cuello desnudo)
+                    p La gallina piroca o de cuello desnudo es un ave de tamaño mediano, con el cuello parcialmente sin plumas y buena tolerancia al calor, que produce entre 120 y 140 huevos al año. Se destaca por su rusticidad y facilidad de desplume, aunque su apariencia puede resultar poco atractiva para algunos consumidores y su productividad es baja.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_5.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Copetona
+                    p La gallina copetona se caracteriza por su penacho de plumas en la cabeza y su fenotipo llamativo, siendo una raza criolla tanto ornamental como productiva, con una producción de 110 a 130 huevos al año. Destaca por su rusticidad y buena aceptación cultural, aunque presenta baja productividad y poca uniformidad en la postura.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_6.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Calzada (con plumas en patas)
+                    p La gallina calzada, caracterizada por tener plumas en los tarsos y un plumaje variado, es común en zonas rurales y produce entre 100 y 130 huevos al año. Se destaca por su rusticidad y valor cultural, aunque presenta huevos pequeños y bajo rendimiento productivo.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_7.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Criolla costeña (trópico bajo)
+                    p La criolla costeña es un ave adaptada al calor y la humedad que produce 130–150 huevos al año, destacando por su resistencia, aunque con menor productividad y poca uniformidad genética.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide07_8.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Santandereana
+                    p La gallina santandereana es rústica y adaptable, produce huevos azulados y pesa hasta 3 kg, pero tiene baja producción y alta variabilidad genética frente a razas comerciales.
+    //- Fin Slideshow
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Etapas de desarrollo de las aves
+    //- Título con imagen
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-3.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img15.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La producción de huevo comercial se organiza en una pirámide genética que asegura mejoramiento continuo, uniformidad y eficiencia en las gallinas ponedoras, dividida en tres niveles principales. Esta pirámide se divide en tres niveles: abuelas, reproductoras y comerciales.
+    p.mb-5(data-aos="fade-left") Para seleccionar las gallinas criollas se debe tener en cuenta unos parámetros, los cuales, se detallan en la siguiente tabla:
+    .row.bg-color-15
+      .col-12
+        .p-5
+          //- Inicio Tabla
+          .row.justify-content-center
+            .col-md-10
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 4.
+                span  Parámetros y consideración.
+              .tabla-a.color-acento-botones
+                table
+                  thead
+                    tr
+                      th.text-center(style="width: 30%") Parámetro
+                      th.text-center(style="width: 70%") Consideración
+                  tbody
+                    tr
+                      td Producción de huevo
+                      td Menor que líneas comerciales (120–200 huevos/año).
+                    tr
+                      td Adaptabilidad
+                      td Alta: resistentes a climas extremos, depredadores y enfermedades locales.
+                    tr
+                      td Comportamiento
+                      td Activo, buena expresión de conductas naturales (forrajeo, baños de polvo, anidación).
+                    tr
+                      td Tamaño y color de huevo
+                      td Variable, generalmente más pequeño y de colores claros a café claro.
+                    tr
+                      td Requerimientos de manejo
+                      td Bajo: sistemas rústicos, alimentación alterna con balanceados y forraje.
+                    tr
+                      td Longevidad productiva
+                      td Mayor que líneas comerciales; pueden producir hasta 3–4 años con cuidado.
+          //- FinTabla
+    p.mb-5(data-aos="fade-left") Las gallinas criollas son ideales para sistemas de traspatio sostenibles, ofreciendo huevos de alta calidad, bajo costo, bienestar animal y buena adaptación con manejo adecuado.  
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Comparación entre líneas comerciales y gallinas criollas
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") El comparativo muestra diferencias clave en productividad, adaptación, costos y bienestar, orientando la elección según sistema, recursos y objetivos; a continuación, se analizan estas diferencias.
+    .row.bg-color-15
+      .col-12
+        .p-5
+          //- Inicio Tabla
+          .row.justify-content-center
+            .col-md-10
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 5.
+                span  Comparativo entre líneas comerciales vs. Gallinas criollas
+              .tabla-a.color-acento-botones
+                table
+                  thead
+                    tr
+                      th.text-center(style="width: 30%") Aspecto
+                      th.text-center(style="width: 30%") Líneas Comerciales (Híbridas)
+                      th.text-center(style="width: 30%") Gallinas Criollas / Semicriollas
+                  tbody
+                    tr
+                      td Rendimiento de huevo
+                      td Muy alto: 280–320 huevos/año
+                      td Medio: 120–200 huevos/año
+                    tr
+                      td Peso huevo promedio
+                      td 55–65 g
+                      td 50–56 g
+                    tr
+                      td Inicio de postura
+                      td 16–18 semanas
+                      td 18–24 semanas
+                    tr
+                      td Tamaño y uniformidad
+                      td Alta uniformidad, color uniforme
+                      td Variable, color y tamaño heterogéneo
+                    tr
+                      td Rusticidad / Adaptación
+                      td Baja; requieren control climático y sanitario
+                      td Alta; resistentes a climas extremos, depredadores y enfermedades locales
+                    tr
+                      td Alimentación
+                      td Necesitan dieta balanceada y precisa
+                      td Flexible; pueden complementar con forraje y subproductos agrícolas
+                    tr
+                      td Expresión de conductas naturales
+                      td Limitada; espacios reducidos
+                      td Completa; escarban, se acicalan, usan nidos y perchas
+                    tr
+                      td Manejo sanitario
+                      td Estricto; alta bioseguridad
+                      td Menos exigente; manejo preventivo básico suficiente
+                    tr
+                      td Costo inicial y mantenimi1ento
+                      td Alto; inversión en infraestructura y alimentación
+                      td Bajo; sistema rústico, menor costo de mantenimiento
+                    tr
+                      td Vida productiva
+                      td 1–2 años óptimos
+                      td 3–4 años con buen manejo
+                    tr
+                      td Ventajas
+                      td Alta producción, uniformidad y eficiencia
+                      td Adaptación, rusticidad, bienestar animal y calidad organoléptica del huevo                    
+          //- FinTabla
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Selección de aves según sistema de producción
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") La elección de gallinas depende del sistema de producción, considerando recursos, manejo, bienestar animal y objetivos para lograr eficiencia y sostenibilidad. A continuación, se detalla cada sistema:
+    //- Inicio Tarjetas
+    .row(data-aos="fade-right").justify-content-center
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta05_1.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Jaula tecnificada          
+            p.text-center Líneas comerciales: máxima producción.
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta05_2.png').w-100                
+          .p-4
+            h4.card-title.text-center.mb-4 Piso / galpón
+            p.text-center Líneas o cruzas: buena conversión y control moderado.
+      .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta05_3.png').w-100                
+          .p-4
+            h4.card-title.text-center.mb-4 Traspatio / semicriollos
+            p.text-center Gallinas criollas: más adaptación, bajo costo y mejor bienestar.
+      //- Fin Tarjetas
 </template>
 
 <script>
