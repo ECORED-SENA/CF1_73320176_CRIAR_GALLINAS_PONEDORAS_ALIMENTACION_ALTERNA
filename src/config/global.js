@@ -152,13 +152,155 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Auditoría avícola',
+      significado:
+        'Evaluación sistemática del cumplimiento de normas y procedimientos en una granja para verificar su conformidad técnica.',
+    },
+    {
+      termino: 'Bienestar animal',
+      significado:
+        'Estado físico y mental de un animal en relación con las condiciones en las que vive y muere; implica garantizar confort, salud y comportamiento natural.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'Conjunto de medidas preventivas destinadas a evitar la entrada y propagación de agentes infecciosos en una granja avícola.',
+    },
+    {
+      termino: 'Buenas Prácticas Avícolas (BPA)',
+      significado:
+        'Procedimientos técnicos y administrativos que aseguran la producción inocua, ética y sostenible de productos avícolas.',
+    },
+    {
+      termino: 'Certificación ICA',
+      significado:
+        'Proceso oficial de evaluación que otorga el Instituto Colombiano Agropecuario a granjas que cumplen requisitos sanitarios, de bioseguridad y bienestar animal.',
+    },
+    {
+      termino: 'Cinco libertades',
+      significado:
+        'Principios básicos del bienestar animal que aseguran la ausencia de hambre, incomodidad, dolor, miedo y restricción del comportamiento natural.',
+    },
+    {
+      termino: 'Comportamiento natural',
+      significado:
+        'Conjunto de acciones innatas de las aves como anidar, posarse, escarbar y acicalarse, esenciales para su bienestar.',
+    },
+    {
+      termino: 'Densidad de alojamiento',
+      significado:
+        'Número de aves por metro cuadrado; parámetro que influye directamente en el confort y bienestar del lote.',
+    },
+    {
+      termino: 'Forma ICA 3-1669 V.1',
+      significado:
+        'Instrumento oficial de evaluación del bienestar animal en aves de corral, que mide indicadores basados en animales y recursos.',
+    },
+    {
+      termino: 'Granja biosegura',
+      significado:
+        'Establecimiento que implementa correctamente medidas de prevención y control sanitario para reducir el riesgo de enfermedades.',
+    },
+    {
+      termino: 'Indicadores MBA/MBR/MBG',
+      significado:
+        'Categorías de evaluación del bienestar animal: basadas en el animal, en los recursos y en la gestión.',
+    },
+    {
+      termino: 'Inocuidad alimentaria',
+      significado:
+        'Garantía de que los alimentos no causarán daño al consumidor cuando se preparen o consuman según su uso previsto.',
+    },
+    {
+      termino: 'Plan sanitario',
+      significado:
+        'Estrategia organizada para prevenir y controlar enfermedades, incluyendo vacunación, vermifugación y limpieza.',
+    },
+    {
+      termino: 'Resolución 067449 de 2020',
+      significado:
+        'Norma que regula las Buenas Prácticas Ganaderas y Avícolas en Colombia, incluyendo criterios de bienestar animal.',
+    },
+    {
+      termino: 'Resolución 3651 de 2014',
+      significado:
+        'Norma del ICA que establece los requisitos para la certificación de granjas avícolas bioseguras.',
+    },
+    {
+      termino: 'Sanidad avícola',
+      significado:
+        'Conjunto de acciones técnicas para mantener la salud de las aves mediante prevención, diagnóstico y control de enfermedades.',
+    },
+    {
+      termino: 'Sintiencia animal',
+      significado:
+        'Capacidad de los animales de sentir placer, dolor, miedo o bienestar, reconocida legalmente por la Ley 1774 de 2016 en Colombia.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Capacidad de seguir el recorrido de un producto desde su origen hasta el consumidor final, garantizando su seguridad.',
+    },
+    {
+      termino: 'Vacunación aviar',
+      significado:
+        'Procedimiento de inmunización de las aves mediante aplicación de biológicos que previenen enfermedades infecciosas.',
+    },
+    {
+      termino: 'Vermifugación',
+      significado:
+        'Aplicación de antiparasitarios internos para eliminar o prevenir infestaciones por helmintos en aves.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Elsitioavicola.com. (2024). Principios del bienestar animal en la producción de postura.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario – ICA. (2014). Resolución 3651 de 2014. Por la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras. ICA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario – ICA. (2020). Resolución 067449 de 2020. Por la cual se establecen los requisitos para la certificación de las Buenas Prácticas Ganaderas y Avícolas. ICA.',
+      link: '',
+    },
+    {
+      referencia:
+        'INVIMA. (2007). Decreto 1500 de 2007. Por el cual se establece el Sistema Oficial de Inspección, Vigilancia y Control de Carnes y Productos Cárnicos. Bogotá: Ministerio de Salud.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mellor, D. J., & Beausoleil, N. J. (2020). The Five Domains Model: Welfare assessment and application to poultry systems. Animal Welfare Journal, 29(3), 227–239.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural – MADR. (2023). Manual de Bienestar Animal en Especies Productivas. Bogotá: MADR.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura – FAO. (2023). Buenas prácticas en el manejo de aves de postura. Roma: FAO.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial de Sanidad Animal – WOAH. (2024). Código Sanitario para los Animales Terrestres. París: WOAH.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Nacional de Colombia. (2023). Estudios sobre sintiencia y comportamiento en gallinas ponedoras. Facultad de Medicina Veterinaria y de Zootecnia.',
+      link: '',
+    },
+    {
+      referencia:
+        'World Poultry Science Association – WPSA. (2022). Biosecurity and Animal Welfare in Layer Farms. Poultry Science Review, 101(8), 1235–1247.',
       link: '',
     },
   ],

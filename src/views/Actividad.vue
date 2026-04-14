@@ -349,7 +349,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Newcastle.',
+              texto: ' <i>Newcastle.</i>',
               esCorrecta: true,
             },
             {
@@ -439,7 +439,7 @@ export default {
         {
           id: 14,
           texto:
-            '¿Cuál es la vía de administración más común para vacunas en aves recién nacidas contra Newcastle?',
+            '¿Cuál es la vía de administración más común para vacunas en aves recién nacidas contra <i>Newcastle?</i>',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

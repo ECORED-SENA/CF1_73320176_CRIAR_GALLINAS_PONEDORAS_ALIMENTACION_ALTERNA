@@ -142,8 +142,8 @@
           .row.justify-content-center
             .col-md-12
               .titulo-sexto.color-acento-contenido.mb-3
-                h5 Tabla 1.
-                span  Integración anatómica en producción de huevo.
+                h5 Tabla 6.
+                span  Plan de vacunación según enfermedad.
               .tabla-a.color-acento-botones
                 table
                   thead
@@ -163,7 +163,7 @@
                       td Ocular o  <i>spray</i>
                       td Según fabricante (0.03 ml)
                       td Cada 8–12 semanas
-                      td Virus de Newcastle (<i>paramixovirus</i>).                      
+                      td Virus de <i>Newcastle (paramixovirus</i>).                      
                     tr
                       td Bronquitis infecciosa
                       td Vacuna viva cepa  <i>Massachusetts</i> o H120
@@ -321,6 +321,269 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Protocolos sanitarios complementarios
     //- Título con imagen
+    p(data-aos="fade-left") Los protocolos sanitarios complementarios garantizan bioseguridad y productividad; a continuación, se presentan sus principales procedimientos y frecuencias.
+    //- Inicio Accordion
+    .bg--img_03.mt-5.acordeon-tipo-2
+      .row.justify-content-center
+        .col-lg-4
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema2/img4.png", alt="").img400.m-auto     
+        .col-lg-8
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Desinfección de galpón")
+              .col-12
+                p Se recomienda la desinfección mediante el uso de amonios cuaternarios o glutaraldehído en concentraciones de 0,5–1 %, aplicada antes del ingreso de cada lote y de forma semanal para mantener la bioseguridad.
+            .row(titulo="Control de plagas (roedores/insectos)")
+              .col-12
+                p Se recomienda el uso de trampas mecánicas, cebos rodenticidas y desinsectación dirigida para el control de plagas, aplicados de forma mensual o según el nivel de infestación.
+            .row(titulo="Limpieza de bebederos y comederos")
+              .col-12
+                p Se recomienda el cepillado con detergente y enjuague con agua limpia de bebederos y comederos, realizado diariamente para garantizar la higiene.
+            .row(titulo="Control de mortalidad")
+              .col-12
+                p Se recomienda el retiro inmediato de aves muertas y su disposición biosegura mediante entierro profundo o incineración, realizado diariamente para evitar riesgos sanitarios.
+            .row(titulo="Registro sanitario")
+              .col-12
+                p Se recomienda el registro diario de mortalidad, consumo, temperatura y observaciones clínicas para un adecuado control sanitario y productivo.
+    //- Fin Accordion.
+    p(data-aos="fade-left") La normatividad colombiana que regulan la realización de los protocolos sanitario son:
+    .row.bg-color-16
+      .col-12
+        .p-5
+          //- Carrusel
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-6 col-lg-6")                      
+                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                        img(src='@/assets/curso/tema2/tarjeta02_1.png').w-100
+                        .p-4
+                          h4.card-title.text-center.mb-3 Resolución ICA 16409 de 2024
+                          p Crea el Programa de Certificación Voluntaria en Bienestar y Sanidad Animal.
+                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                        img(src='@/assets/curso/tema2/tarjeta02_2.png').w-100
+                        .p-4
+                          h4.card-title.text-center.mb-3 Manual de Bioseguridad Avícola (ICA, 2023) 
+                          p Establece medidas de bioseguridad y control de enfermedades en aves de corral.
+                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                        img(src='@/assets/curso/tema2/tarjeta02_3.png').w-100
+                        .p-4
+                          h4.card-title.text-center.mb-3 Resolución ICA 3652 de 2014
+                          p Regula la prevención, diagnóstico y control de enfermedades aviares.
+                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                        img(src='@/assets/curso/tema2/tarjeta02_4.png').w-100
+                        .p-4
+                          h4.card-title.text-center.mb-3 Ley 1774 de 2016
+                          p Reconoce a los animales como seres sintientes.
+                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                        img(src='@/assets/curso/tema2/tarjeta02_5.png').w-100
+                        .p-4
+                          h4.card-title.text-center.mb-3 Decreto 1500 de 2007
+                          p Regula la inocuidad y sanidad en productos de origen animal.
+                  .col-lg-3.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema2/img6.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+          //- Fin Carrusel
+    p(data-aos="fade-left") El plan sanitario integral organiza acciones por etapa productiva para prevenir enfermedades y mantener la salud y productividad de las aves. Este se detalla seguidamente.
+    .row.bg-color-15
+      .col-12
+        .p-5
+          //- Inicio Tabla
+          .row.justify-content-center
+            .col-md-12
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 8.
+                span  Plan sanitario integral en avicultura de postura
+              .tabla-a.color-acento-botones
+                table
+                  thead
+                    tr
+                      th.text-center(style="width: 30%") Etapa productiva
+                      th.text-center(style="width: 30%") Actividad principal
+                      th.text-center(style="width: 30%") Objetivo
+                      th.text-center(style="width: 30%") Frecuencia / Responsable
+                  tbody
+                    tr
+                      td Levante (1–16 semanas)
+                      td Vacunación básica y refuerzos.
+                      td Estimular inmunidad temprana frente a enfermedades virales y bacterianas.
+                      td Según cronograma ICA / Veterinario.
+                    tr
+                      td Inicio de postura (17–25 semanas)
+                      td Refuerzo inmunitario y control parasitario.
+                      td Proteger al inicio del ciclo productivo.
+                      td Cada 3–4 meses o según riesgo.
+                    tr
+                      td Postura (26–90 semanas)
+                      td Mantenimiento sanitario, bioseguridad y vermifugación periódica.
+                      td Evitar caídas productivas y brotes infecciosos.
+                      td Monitoreo semanal / desinfección diaria.
+                    tr
+                      td Descanso sanitario (vacío técnico)
+                      td Limpieza, desinfección y descanso biológico.
+                      td Cortar ciclos infecciosos.
+                      td Mínimo 15 días antes de nuevo lote.
+          //- Fin tabla                      
+    p(data-aos="fade-left") La sanidad en aves de postura es clave para la sostenibilidad, ya que previene enfermedades, mejora la productividad y asegura el bienestar, independientemente del sistema de producción.
+    Separador
+    //- Inicio Tema2.2
+    .row.mt-5
+        #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.2 Medicamentos en avicultura
+    p(data-aos="fade-left") El uso de medicamentos en avicultura de postura es clave para prevenir enfermedades, controlar parásitos y mejorar la salud y productividad de las aves. En el siguiente video se abordarán detalles para tener en cuenta:
+    //- Inicio Video
+    figure.mb-5(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="Conductas naturales en sistemas semicriollos." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //- Fin Video
+    Separador
+    //- Inicio Tema2.3
+    .row.mt-5
+        #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.3 Bioseguridad en granjas avícolas de postura
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-3.p-3.p-sm-4.p-md-5.mb-3
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/img7.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La bioseguridad en granjas avícolas de postura es fundamental para prevenir la entrada y propagación de enfermedades, proteger la salud de las aves y asegurar la calidad e inocuidad de los productos, mediante la aplicación de medidas integrales de control y manejo.
+    p(data-aos="fade-left") En este apartado se abordarán los objetivos, componentes, principales protocolos, la evaluación y el monitoreo del cumplimiento, las consecuencias de su incumplimiento y la relación entre la bioseguridad y el bienestar animal. 
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/img8.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Objetivos")
+            .col-12.ps-0
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Prevenir el ingreso de enfermedades infecciosas al sistema productivo.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Reducir la circulación de patógenos entre diferentes lotes o galpones.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Evitar la contaminación cruzada de alimentos, agua, personas o equipos.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Garantizar un entorno sanitario estable que promueva el bienestar y productividad de las aves.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Mantener la trazabilidad sanitaria ante las autoridades y compradores.                
+          .row(titulo="Componentes básicos del sistema de bioseguridad")
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Externa o perimetral: Evita el ingreso de patógenos desde el exterior.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Interna u operativa: Controla la diseminación de patógenos dentro de la granja.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Sanitaria o biológica: Mantiene inmunidad y salud de las aves.
+          .row(titulo="Protocolos esenciales ")
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Registro de ingreso, pediluvios, ropa exclusiva.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Frecuencias, productos, concentraciones.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Retiro diario, compostaje.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Análisis microbiológico, limpieza de tanques.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Trampas, fumigación, monitoreo.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Vacunación, vermifugación.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Manejo ambiental y disposición.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Desinfección de vehículos y jaulas.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Capacitaciones y simulacros.                  
+    //- Fin Accordion
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center      
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Evaluación y monitoreo del cumplimiento")
+            .col-12.ps-0              
+              ul.lista-ul.mb-0
+                li.d-flex                  
+                  p.mb-0 El Instituto Colombiano Agropecuario (ICA) evalúa el cumplimiento de bioseguridad mediante:
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Inspecciones programadas o sorpresivas.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Listas de verificación oficiales (Resolución 3651/2014).
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Ponderación de cumplimiento (%):
+                li.d-flex.ps-4
+                  p.mb-0 <b>- Excelente:</b> ≥ 90 %
+                li.d-flex.ps-4                  
+                  p.mb-0 <b>- Alto:</b> 80–89 %
+                li.d-flex.ps-4                  
+                  p.mb-0 <b>- Medio:</b> 60–79 %
+                li.d-flex.ps-4                  
+                  p.mb-0 <b>- Bajo:</b> < 60 % (requiere plan correctivo inmediato).
+          .row(titulo="Consecuencias de incumplimiento")
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Suspensión de la certificación biosegura
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Sanciones administrativas y cierre temporal.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Inmovilización o sacrificio sanitario de aves afectadas.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 Pérdida del estatus sanitario ICA.
+          .row(titulo="Relación entre bioseguridad y bienestar animal")
+              ul.lista-ul.mb-0
+                li.d-flex                  
+                  p.mb-0 Ambos conceptos están estrechamente vinculados:
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 La bioseguridad protege la salud física y ambiental, mientras que el bienestar animal protege el estado físico y mental de las aves.
+                li.d-flex
+                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  p.mb-0 La metodología ICA 3-1669 V.1 integra indicadores de ambos (MBA, MBR y MBG), siendo el control sanitario parte esencial del bienestar.
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/img9.png", alt="").img400.m-auto
+    .row.justify-content-center.mb-4
+      .col-lg-12
+        .d-flex.align-items-center.bg-color-6.p-4.rounded-4          
+          .flex-shrink-0.pe-4
+            img(src='@/assets/curso/tema2/icono-lectura.svg', style="width: 80px")          
+          .flex-grow-1
+            h4.mb-2 Principales protocolos o procedimientos operativos estándar (POE) que deben cumplirse
+            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bineestar animal y una producción eficiente.      
+          .ps-4
+            a.btn.btn-danger.d-flex.align-items-center.p-3(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
+              span.fw-bold.me-2 Descargar
+              i.fas.fa-file-download
+    p(data-aos="fade-left")  La bioseguridad en granjas avícolas de postura no es una acción puntual, sino un sistema continuo y verificable que protege la salud de las aves, la inocuidad de los huevos y la estabilidad del sistema productivo. Cumplir los protocolos establecidos por el ICA garantiza la certificación como “Granja Avícola Biosegura” (Resolución 3651 de 2014) y constituye el primer paso para obtener la certificación de Bienestar Animal (Resolución 16409 de 2024).
 </template>
 
 <script>
