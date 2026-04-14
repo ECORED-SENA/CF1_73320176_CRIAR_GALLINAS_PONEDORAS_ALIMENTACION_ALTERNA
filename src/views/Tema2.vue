@@ -463,59 +463,59 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Prevenir el ingreso de enfermedades infecciosas al sistema productivo.
+                  p.mb-0.mt-1 Prevenir el ingreso de enfermedades infecciosas al sistema productivo.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Reducir la circulación de patógenos entre diferentes lotes o galpones.
+                  p.mb-0.mt-1 Reducir la circulación de patógenos entre diferentes lotes o galpones.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Evitar la contaminación cruzada de alimentos, agua, personas o equipos.
+                  p.mb-0.mt-1 Evitar la contaminación cruzada de alimentos, agua, personas o equipos.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Garantizar un entorno sanitario estable que promueva el bienestar y productividad de las aves.
+                  p.mb-0.mt-1 Garantizar un entorno sanitario estable que promueva el bienestar y productividad de las aves.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Mantener la trazabilidad sanitaria ante las autoridades y compradores.                
+                  p.mb-0.mt-1 Mantener la trazabilidad sanitaria ante las autoridades y compradores.                
           .row(titulo="Componentes básicos del sistema de bioseguridad")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Externa o perimetral: Evita el ingreso de patógenos desde el exterior.
+                  p.mb-0.mt-1 Externa o perimetral: Evita el ingreso de patógenos desde el exterior.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Interna u operativa: Controla la diseminación de patógenos dentro de la granja.
+                  p.mb-0.mt-1 Interna u operativa: Controla la diseminación de patógenos dentro de la granja.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Sanitaria o biológica: Mantiene inmunidad y salud de las aves.
+                  p.mb-0.mt-1 Sanitaria o biológica: Mantiene inmunidad y salud de las aves.
           .row(titulo="Protocolos esenciales ")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Registro de ingreso, pediluvios, ropa exclusiva.
+                  p.mb-0.mt-1 Registro de ingreso, pediluvios, ropa exclusiva.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Frecuencias, productos, concentraciones.
+                  p.mb-0.mt-1 Frecuencias, productos, concentraciones.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Retiro diario, compostaje.
+                  p.mb-0.mt-1 Retiro diario, compostaje.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Análisis microbiológico, limpieza de tanques.
+                  p.mb-0.mt-1 Análisis microbiológico, limpieza de tanques.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Trampas, fumigación, monitoreo.
+                  p.mb-0.mt-1 Trampas, fumigación, monitoreo.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Vacunación, vermifugación.
+                  p.mb-0.mt-1 Vacunación, vermifugación.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Manejo ambiental y disposición.
+                  p.mb-0.mt-1 Manejo ambiental y disposición.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Desinfección de vehículos y jaulas.
+                  p.mb-0.mt-1 Desinfección de vehículos y jaulas.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Capacitaciones y simulacros.                  
+                  p.mb-0.mt-1 Capacitaciones y simulacros.                  
     //- Fin Accordion
     //- Inicio Accordion
     .bg--img_03.mt-5
@@ -526,48 +526,48 @@
             .col-12.ps-0              
               ul.lista-ul.mb-0
                 li.d-flex                  
-                  p.mb-0 El Instituto Colombiano Agropecuario (ICA) evalúa el cumplimiento de bioseguridad mediante:
+                  p.mb-0.mt-1 El Instituto Colombiano Agropecuario (ICA) evalúa el cumplimiento de bioseguridad mediante:
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Inspecciones programadas o sorpresivas.
+                  p.mb-0.mt-1 Inspecciones programadas o sorpresivas.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Listas de verificación oficiales (Resolución 3651/2014).
+                  p.mb-0.mt-1 Listas de verificación oficiales (Resolución 3651/2014).
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Ponderación de cumplimiento (%):
+                  p.mb-0.mt-1 Ponderación de cumplimiento (%):
                 li.d-flex.ps-4
-                  p.mb-0 <b>- Excelente:</b> ≥ 90 %
+                  p.mb-0.mt-1 <b>- Excelente:</b> ≥ 90 %
                 li.d-flex.ps-4                  
-                  p.mb-0 <b>- Alto:</b> 80–89 %
+                  p.mb-0.mt-1 <b>- Alto:</b> 80–89 %
                 li.d-flex.ps-4                  
-                  p.mb-0 <b>- Medio:</b> 60–79 %
+                  p.mb-0.mt-1 <b>- Medio:</b> 60–79 %
                 li.d-flex.ps-4                  
-                  p.mb-0 <b>- Bajo:</b> < 60 % (requiere plan correctivo inmediato).
+                  p.mb-0.mt-1 <b>- Bajo:</b> < 60 % (requiere plan correctivo inmediato).
           .row(titulo="Consecuencias de incumplimiento")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Suspensión de la certificación biosegura
+                  p.mb-0.mt-1 Suspensión de la certificación biosegura
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Sanciones administrativas y cierre temporal.
+                  p.mb-0.mt-1 Sanciones administrativas y cierre temporal.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Inmovilización o sacrificio sanitario de aves afectadas.
+                  p.mb-0.mt-1 Inmovilización o sacrificio sanitario de aves afectadas.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Pérdida del estatus sanitario ICA.
+                  p.mb-0.mt-1 Pérdida del estatus sanitario ICA.
           .row(titulo="Relación entre bioseguridad y bienestar animal")
               ul.lista-ul.mb-0
                 li.d-flex                  
-                  p.mb-0 Ambos conceptos están estrechamente vinculados:
+                  p.mb-0.mt-1 Ambos conceptos están estrechamente vinculados:
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 La bioseguridad protege la salud física y ambiental, mientras que el bienestar animal protege el estado físico y mental de las aves.
+                  p.mb-0.mt-1 La bioseguridad protege la salud física y ambiental, mientras que el bienestar animal protege el estado físico y mental de las aves.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 La metodología ICA 3-1669 V.1 integra indicadores de ambos (MBA, MBR y MBG), siendo el control sanitario parte esencial del bienestar.
+                  p.mb-0.mt-1 La metodología ICA 3-1669 V.1 integra indicadores de ambos (MBA, MBR y MBG), siendo el control sanitario parte esencial del bienestar.
       .col-lg-3 
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/img9.png", alt="").img400.m-auto

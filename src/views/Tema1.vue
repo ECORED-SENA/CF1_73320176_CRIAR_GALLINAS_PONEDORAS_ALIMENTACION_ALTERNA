@@ -306,44 +306,44 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Fosas nasales
+                  p.mb-0.mt-1 Fosas nasales
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Laringe
+                  p.mb-0.mt-1 Laringe
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Tráquea
+                  p.mb-0.mt-1 Tráquea
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Bronquios
+                  p.mb-0.mt-1 Bronquios
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Pulmones
+                  p.mb-0.mt-1 Pulmones
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Sacos aéreos (9)
+                  p.mb-0.mt-1 Sacos aéreos (9)
           .row(titulo="Características especiales")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Flujo de aire unidireccional.
+                  p.mb-0.mt-1 Flujo de aire unidireccional.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Intercambio gaseoso continuo.
+                  p.mb-0.mt-1 Intercambio gaseoso continuo.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Mayor sensibilidad a gases (amoníaco).
+                  p.mb-0.mt-1 Mayor sensibilidad a gases (amoníaco).
           .row(titulo="Importancia en granja")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Ventilación adecuada previene enfermedades.
+                  p.mb-0.mt-1 Ventilación adecuada previene enfermedades.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Control de polvo y humedad es fundamental.
+                  p.mb-0.mt-1 Control de polvo y humedad es fundamental.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0 Relación directa con ganancia de peso y postura.
+                  p.mb-0.mt-1 Relación directa con ganancia de peso y postura.
     //- Fin Accordion
     //- Título con imagen
     .bg-full-width.mt-5
@@ -351,7 +351,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Sistema respiratorio
+          h3.titulo-con-imagen__texto Integración anatómica en la producción de huevo
     //- Título con imagen
     p(data-aos="fade-left") Cada uno de estos sistemas se integran anatómicamente para la producción de huevo. Estos se relacionan así:
     .row.bg-color-15
@@ -524,7 +524,7 @@
                     figure
                       img(src="@/assets/curso/tema1/slide02_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Componentes                    
+                    h4 Canibalismo                    
                     p Conducta agresiva donde gallinas se picotean entre sí.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
@@ -631,7 +631,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Control del estrés en gallinas ponedoras
+          h3.titulo-con-imagen__texto Bienestar según el sistema productivo
     //- Título con imagen
     p(data-aos="fade-left") El bienestar en gallinas ponedoras varía según el sistema productivo, presentando ventajas y riesgos, y es evaluado por el ICA. Los detalles se presentan en este apartado:
     .row.bg-color-15
