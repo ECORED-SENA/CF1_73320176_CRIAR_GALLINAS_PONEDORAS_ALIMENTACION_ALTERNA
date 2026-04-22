@@ -114,7 +114,7 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },      
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
