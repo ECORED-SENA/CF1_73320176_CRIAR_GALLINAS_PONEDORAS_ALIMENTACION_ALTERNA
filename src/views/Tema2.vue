@@ -143,7 +143,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 6.
                 span  Plan de vacunación según enfermedad.
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -255,7 +255,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 7.
                 span  Plan de vermifumigación.
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -395,7 +395,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 8.
                 span  Plan sanitario integral en avicultura de postura
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -572,14 +572,14 @@
           img(src="@/assets/curso/tema2/img9.png", alt="").img400.m-auto
     .row.justify-content-center.mb-4
       .col-lg-12
-        .d-flex.align-items-center.bg-color-6.p-4.rounded-4          
-          .flex-shrink-0.pe-4
+        .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-6.p-4.rounded-4           
+          .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
             img(src='@/assets/curso/tema2/icono-lectura.svg', style="width: 80px")          
-          .flex-grow-1
+          .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Principales protocolos o procedimientos operativos estándar (POE) que deben cumplirse
-            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bineestar animal y una producción eficiente.      
-          .ps-4
-            a.btn.btn-danger.d-flex.align-items-center.p-3(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
+            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bineestar animal y una producción eficiente.  
+          .mt-3.mt-lg-0.ps-lg-4            
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     p(data-aos="fade-left")  La bioseguridad en granjas avícolas de postura no es una acción puntual, sino un sistema continuo y verificable que protege la salud de las aves, la inocuidad de los huevos y la estabilidad del sistema productivo. Cumplir los protocolos establecidos por el ICA garantiza la certificación como “Granja Avícola Biosegura” (Resolución 3651 de 2014) y constituye el primer paso para obtener la certificación de Bienestar Animal (Resolución 16409 de 2024).

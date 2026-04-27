@@ -362,7 +362,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 1.
                 span  Integración anatómica en producción de huevo.
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -642,7 +642,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 2.
                 span  Bienestar según el sistema productivo.
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -844,7 +844,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
           span  Relación entre las cinco libertades y los cinco dominios.
-        .tabla-a.color-acento-botones
+        .tabla-a
           table
             thead
               tr
@@ -937,15 +937,15 @@
                     P Las cinco libertades tienen un enfoque ético y cualitativo para evitar el sufrimiento, mientras los principios del bienestar animal son técnicos, cuantitativos y buscan un bienestar integral y proactivo.
     //- Fin Slideshow
     .row.justify-content-center.mb-4
-      .col-lg-11        
-        .d-flex.align-items-center.bg-color-6.p-4.rounded-4          
-          .flex-shrink-0.pe-4
+      .col-lg-12
+        .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-6.p-4.rounded-4           
+          .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
             img(src='@/assets/curso/tema1/lectura-icon.svg', style="width: 80px")          
-          .flex-grow-1
+          .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Diferencia entre los principios del bienestar animal y las cinco libertades en aves de postura
-            p.mb-0 Para profundizar en cada una de las diferencias existentes entre las cinco libertades y los principios del bienestar animal, lo invitamos a realizar la siguiente lectura complementaria:          
-          .ps-4
-            a.btn.btn-danger.d-flex.align-items-center.p-3(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
+            p.mb-0 Para profundizar en cada una de las diferencias existentes entre las cinco libertades y los principios del bienestar animal, lo invitamos a realizar la siguiente lectura complementaria:     
+          .mt-3.mt-lg-0.ps-lg-4            
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     //- Inicio Tema1.4
@@ -1351,7 +1351,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 4.
                 span  Parámetros y consideración.
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
@@ -1396,7 +1396,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 5.
                 span  Comparativo entre líneas comerciales vs. Gallinas criollas
-              .tabla-a.color-acento-botones
+              .tabla-a
                 table
                   thead
                     tr
