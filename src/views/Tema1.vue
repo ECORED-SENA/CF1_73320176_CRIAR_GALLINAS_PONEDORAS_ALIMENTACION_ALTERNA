@@ -439,54 +439,58 @@
     //- Título con imagen
     p(data-aos="fade-left") En sistemas semicriollos, la etología alimenticia influye en el consumo y selección de alimentos, pero requiere un balance nutricional adecuado para garantizar salud, bienestar y productividad; tales como:
     .row.bg-color-15.justify-content-center
-      .col-8
-        .p-5          
-          .row(data-aos="fade-right").justify-content-center
-            .col-12.col-md-10.col-lg-6.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-white.border.shadow
-                .row.justify-content-center.mb-3
-                  .col-12.text-center
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='', style="max-width: 90px; width: 100%;").mx-auto                
+      .col-12
+        .p-5
+          //- Inicio Tarjetas
+          .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
+            .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.rounded-4.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='Icono Componentes', style="max-width: 90px; width: 100%; height: 90px; object-fit: contain;").mx-auto                 
                 .text-center.mb-4
-                  h4.card-title.mb-0 Componentes
-                  h4.card-title.mb-0 En sistemas semicriollos                
-                ul.lista-ul.mb-0.color-vinotinto-custom
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 Mayor tiempo de búsqueda de alimento.
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 Consumo fraccionado.
-                  li.d-flex.align-items-start.mb-0
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 Selección natural de ingredientes.                    
-            .col-12.col-md-10.col-lg-6.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-white.border.shadow
-                .row.justify-content-center.mb-3
-                  .col-12.text-center
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='', style="max-width: 90px; width: 100%;").mx-auto                
+                  h4.card-title.mb-0.fw-bold Componentes
+                  h4.card-title.mb-0.fw-bold En sistemas semicriollos
+                .w-100.px-2.px-md-3
+                  ul.lista-ul.mb-0.color-vinotinto-custom.text-start
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 Mayor tiempo de búsqueda de alimento.
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 Consumo fraccionado.
+                    li.d-flex.align-items-start.mb-0
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 Selección natural de ingredientes.
+            .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.rounded-4.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='Icono Balance técnico', style="max-width: 90px; width: 100%; height: 90px; object-fit: contain;").mx-auto                 
                 .text-center.mb-4
-                  h4.card-title.mb-0 Balance técnico
-                  h4.card-title.mb-0 &nbsp;                
-                ul.lista-ul.mb-0.color-vinotinto-custom
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 16–18 % proteína.
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 3.5–4 % calcio.
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 Energía metabolizable adecuada.
-                  li.d-flex.align-items-start.mb-2
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 200–300 ml de agua/día/ave.
-                  li.d-flex.align-items-start.mb-0
-                    i.fas.fa-check-circle.me-3.mt-1
-                    p.mb-0 Temperatura ideal: 18–26 °C.
+                  h4.card-title.mb-0.fw-bold Balance técnico
+                .w-100.px-2.px-md-3
+                  ul.lista-ul.mb-0.color-vinotinto-custom.text-start
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 16–18 % proteína.
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 3.5–4 % calcio.
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 Energía metabolizable adecuada.
+                    li.d-flex.align-items-start.mb-3
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 200–300 ml de agua/día/ave.
+                    li.d-flex.align-items-start.mb-0
+                      i.fas.fa-check-circle.me-3.mt-1
+                      span.mb-0 Temperatura ideal: 18–26 °C.                  
           //- Fin Tarjetas
+
+
+
+
+
+
     //- Título con imagen
     .bg-full-width
       .px-4.px-md-5.pb-md-3
@@ -554,63 +558,63 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
-                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/carrusel01_1.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center Afecta
-                        p.card-text.text-center
-                        ul.lista-ul.mb-0.color-vinotinto-custom
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Producción del huevo.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Tamaño y calidad de cáscara.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Sistema inmune.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Conversión alimenticia.
-                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/carrusel01_2.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center Causas
-                        p.card-text.text-center
-                        ul.lista-ul.mb-0.color-vinotinto-custom
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Cambios bruscos de dieta.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Hacinamiento.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Depredadores.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Climas extremos.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Manejo brusco.
-                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/carrusel01_3.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center Prevención
-                        p.card-text.text-center
-                        ul.lista-ul.mb-0.color-vinotinto-custom
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Rutinas fijas.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Transiciones graduales.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Protección perimetral.
-                          li.d-flex
-                            i.fas.fa-check-circle.me-3
-                            p.mb-0 Manejo tranquilo.
+                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                        img(src='@/assets/curso/tema1/carrusel01_1.svg', alt='Icono Afecta', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        h4.card-title.text-center.mb-4 Afecta
+                        .w-100.text-start.px-1
+                          ul.lista-ul.mb-0.color-vinotinto-custom
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Producción del huevo.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Tamaño y calidad de cáscara.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Sistema inmune.
+                            li.d-flex.align-items-start.mb-0
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Conversión alimenticia.
+                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                        img(src='@/assets/curso/tema1/carrusel01_2.svg', alt='Icono Causas', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        h4.card-title.text-center.mb-4 Causas
+                        .w-100.text-start.px-1
+                          ul.lista-ul.mb-0.color-vinotinto-custom
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Cambios bruscos de dieta.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Hacinamiento.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Depredadores.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Climas extremos.
+                            li.d-flex.align-items-start.mb-0
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Manejo brusco.
+                      .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column.align-items-center
+                        img(src='@/assets/curso/tema1/carrusel01_3.svg', alt='Icono Prevención', style="max-width: 90px; height: 90px; object-fit: contain;").mx-auto.mb-3
+                        h4.card-title.text-center.mb-4 Prevención
+                        .w-100.text-start.px-1
+                          ul.lista-ul.mb-0.color-vinotinto-custom
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Rutinas fijas.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Transiciones graduales.
+                            li.d-flex.align-items-start.mb-2
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Protección perimetral.
+                            li.d-flex.align-items-start.mb-0
+                              i.fas.fa-check-circle.me-3.mt-1
+                              span.mb-0 Manejo tranquilo.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
-                      figure
-                        img(src='@/assets/curso/tema1/img7.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+                    figure
+                      img(src='@/assets/curso/tema1/img7.png', alt='Imagen decorativa', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel
     //- Título con imagen
     .bg-full-width.mt-5
