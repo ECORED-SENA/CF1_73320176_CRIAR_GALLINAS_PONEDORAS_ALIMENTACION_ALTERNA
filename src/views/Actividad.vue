@@ -346,7 +346,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: ' <i>Newcastle.</i>',
+              texto: 'Newcastle.',
               esCorrecta: true,
             },
             {
