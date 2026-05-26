@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Manejo integral operativo y sanitario en explotaciones avícolas de postura.',
+      'Manejo integral operativo y sanitario en explotaciones avícolas de postura',
     Description:
       'El curso brinda formación técnica, biológica y práctica para el manejo integral de gallinas ponedoras en sistemas alternativos. Aborda anatomía, comportamiento, bienestar animal, razas y selección. Fortalece competencias en sanidad, bioseguridad y uso responsable de medicamentos. Además, desarrolla habilidades en manejo productivo, promoviendo la producción sostenible y oportunidades en el ámbito rural.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -118,7 +118,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/73322084 _CF1_DU.zip',
+        download: 'downloads/73322084_CF1_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -332,7 +332,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julian Ramirez Benitez',
+          nombre: 'Fredy Fabian Ortiz Segura',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -356,13 +356,13 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Carlos Eduardo Garavito Parada ',
+          nombre: 'Juan Pablo Rojas Polania',
           cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Juan Pablo Rojas Polania',
+          nombre: 'Carlos Eduardo Garavito Parada ',
           cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -375,12 +375,6 @@ export default {
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'Locución',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Fabio Armando Ortiz Reyes',
           cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
